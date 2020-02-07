@@ -20,3 +20,14 @@ def sum_n2(n):
 
 print(sum_n2(10))
 print(sum_n2(100))
+
+#1부터 n까지 연속한 숫자의 제곱의 합을 구하는 알고리즘
+def sum_pow(n):
+    s=0
+    for i in range(1,n+1):
+        s=s+i*i
+        return s
+
+print(sum_pow(10))
+print(sum_pow(100))
+
